@@ -41,11 +41,7 @@ setup(
         'matrix', 'storage'],
     
     packages=find_packages(),
-    namespace_packages=['h5dj', 'tests'],
-    include_package_data=True,
-    package_data={
-        'tests': [
-            'images/*.jpg'] },
+    namespace_packages=['h5dj'],
 
     install_requires=[
         'numpy', 'h5py', 'django',
