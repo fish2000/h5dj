@@ -24,7 +24,7 @@ class StorageTests(TestCase):
         self.h5.save('zeros.nda', zeros)
         self.h5._repack()
     
-    def _test_store_image(self):
+    def test_store_image(self):
         #img = random.choice(os.listdir(settings.testimages))
         
         print('', file=sys.stderr)
