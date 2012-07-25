@@ -9,8 +9,8 @@ import os
 import shutil
 import types
 import tempfile
-
 import h5py
+
 
 def nda_from_path(image_file):
     try:
@@ -36,6 +36,7 @@ def nda_from_file_object(file_object):
     if hasattr(file_object, 'seek'):
         file_object.seek(0)
     return Image.open(StringIO(file_object))
+
 
 class HDF5Storage(Storage):
     
