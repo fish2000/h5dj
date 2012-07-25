@@ -10,7 +10,7 @@ Copyright (c) 2012 Objects In Space And Time, LLC. All rights reserved.
 
 __author__ = 'Alexander Bohn'
 __contact__ = 'fish2000@gmail.com'
-__version__ = (0, 1, 0)
+__version__ = (0, 1, 1)
 
 try:
     from setuptools import setup
@@ -19,7 +19,7 @@ except ImportError:
 from setuptools import find_packages
 
 setup(
-    name='h5dj',
+    name='hdf5-django',
     version='%s.%s.%s' % __version__,
     description='HDF5 interfaces for Django',
     long_description=""" HDF5 interfaces for Django. """,
