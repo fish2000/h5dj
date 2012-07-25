@@ -1,5 +1,5 @@
 
-from h5dj.storage import HDF5Storage
+#from h5dj.storage import HDF5Storage
 
 # package path-extension snippet.
 from pkgutil import extend_path
