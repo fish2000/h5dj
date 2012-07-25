@@ -40,8 +40,11 @@ setup(
         'numpy', 'arrays',
         'matrix', 'storage'],
     
-    packages=find_packages(exclude=['tests']),
+    packages=find_packages(),
     namespace_packages=['h5dj'],
+    
+    entry_points={
+        'console_scripts': ['h5dj-test = tests.runtests:main'] },
 
     install_requires=[
         'numpy', 'h5py', 'django',
