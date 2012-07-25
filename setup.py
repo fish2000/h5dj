@@ -17,6 +17,9 @@ try:
 except ImportError:
     from distutils.core import setup
 from setuptools import find_packages
+from setuptools.package_index import declare_namespace
+
+declare_namespace('h5dj')
 
 setup(
     name='hdf5-django',
