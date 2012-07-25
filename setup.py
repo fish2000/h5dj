@@ -10,7 +10,7 @@ Copyright (c) 2012 Objects In Space And Time, LLC. All rights reserved.
 
 __author__ = 'Alexander Bohn'
 __contact__ = 'fish2000@gmail.com'
-__version__ = (0, 1, 1)
+__version__ = (0, 1, 2)
 
 try:
     from setuptools import setup
@@ -41,7 +41,7 @@ setup(
         'matrix', 'storage'],
     
     packages=find_packages(),
-    namespace_packages=['h5dj'],
+    namespace_packages=['h5dj', 'tests'],
     
     entry_points={
         'console_scripts': ['h5dj-test = tests.runtests:main'] },

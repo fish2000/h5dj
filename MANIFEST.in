@@ -3,3 +3,4 @@ include .gitignore
 include LICENSE.txt
 include README.md
 recursive-include h5dj *
+recursive-include tests *
