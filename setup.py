@@ -40,7 +40,7 @@ setup(
         'numpy', 'arrays',
         'matrix', 'storage'],
     
-    packages=find_packages(),
+    packages=find_packages(exclude=['tests']),
     namespace_packages=['h5dj'],
 
     install_requires=[
